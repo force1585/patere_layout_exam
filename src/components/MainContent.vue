@@ -1,7 +1,5 @@
 <template>
-  <div class="main">
-    <div class="mainContent">MainContent</div>
-  </div>
+  <div class="main">MainContent</div>
 </template>
 
 <script>
@@ -12,13 +10,12 @@ export default {
 
 <style scoped>
 .main {
-  width: 100%;
+  width: 80%;
+  margin-left: auto;
+  margin-right: 0;
   height: calc(100vh - 100px);
   display: flex;
-}
-
-.mainContent {
-  width: calc(100vw);
   border: 1px solid #000;
+  text-align: center;
 }
 </style>

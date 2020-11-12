@@ -1,6 +1,6 @@
 <template>
   <div class="main">
-    <div class="mainSide">List:side bar</div>
+    <div class="sideBar">List:side bar</div>
   </div>
 </template>
 
@@ -11,13 +11,13 @@ export default {
 </script>
 
 <style scoped>
-.mainSide {
+.sideBar {
   position: absolute;
-  width: 300px;
+  width: 20%;
   z-index: 10;
-  top: 55px;
+  top: 50px;
   left: 0;
-  bottom: 55px;
+  bottom: 50px;
   overflow-x: hidden;
   overflow-y: auto;
   -webkit-overflow-scrolling: touch;
